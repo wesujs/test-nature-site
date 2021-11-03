@@ -1,4 +1,3 @@
-
 html,
 body,
 header {
@@ -9,6 +8,7 @@ a {
     color: white;
     text-decoration: none;
 }
+
 /* Divs */
 
 body {
@@ -85,6 +85,7 @@ body {
     font-weight: 800;
     font-size: 80px;
 }
+
 .description {
     color: rgb(250, 243, 243);
     word-spacing: 3px;
@@ -132,6 +133,7 @@ body {
 
     .nav-container {
         padding-bottom: 300px;
+        font-size: 300%;
     }
 
 
@@ -145,7 +147,36 @@ body {
         text-align: center;
         margin: 0 auto;
     }
-    
+
+    /* Navbar */
+
+    .navbar {
+        font-weight: 400;
+        color: black;
+    }
+
+    .navbar-brand {
+        font-size: 200%;
+        font-weight: 700;
+    }
+
+    .nav-link {
+        color: black;
+    }
+
+    .nav-item:hover {
+        font-weight: 700;
+    }
+
+    .item {
+        margin-left: 20px;
+    }
+
+    .logo {
+        margin-left: 10%;
+    }
+
+
     .year {
         padding: 5px;
     }
